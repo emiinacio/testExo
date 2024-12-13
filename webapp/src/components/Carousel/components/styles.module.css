@@ -1,0 +1,14 @@
+.containerCarousel {
+  position: relative;
+}
+
+.containerDots {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}
+
+.boxDots {
+  display: flex;
+  gap: 5px;
+}
