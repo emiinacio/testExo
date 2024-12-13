@@ -1,0 +1,40 @@
+.fileContainer {
+  width: 360px;
+  min-height: 200px;
+  border: 2px solid ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.uploadIcon{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  pointer-events: none;
+}
+
+.placeholder{
+  color: #999;
+  pointer-events: none;
+}
+
+.fileName{
+  color: #999;
+  font-weight: 700;
+  display: flex;
+}
+
+.fileName > p {
+  pointer-events: none;
+}
+
+.uploadButton{
+  min-width: 90%;
+  height: 3rem;
+}
+
+.closeButton:hover{
+  color: rgb(219, 96, 96);
+  cursor: pointer;
+}

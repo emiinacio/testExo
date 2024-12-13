@@ -1,0 +1,19 @@
+$theme-colors: (
+  "secondary": #6c757d,
+  "light": #f8f9fa,
+  "success": #28a745,
+  "dark": #343a40,
+  "warning": #ffc107,
+  "danger": #dc3545,
+  
+  "info": #17a2b8,
+  "primary": #007bff
+);
+
+body {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-family: 'arial' !important;
+  font-size: 16px !important;
+}
+@import 'bootstrap';
